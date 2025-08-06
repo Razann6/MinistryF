@@ -113,11 +113,18 @@ tr:hover {
   background-color: #f1f5f9;
   border: 1px solid #cbd5e1;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
 
+/* ✅ Media Query for Phones */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
 
   nav {
     flex-direction: column;
@@ -167,8 +174,9 @@ img {
   ul {
     padding-right: 15px;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
-
-}
-
-
