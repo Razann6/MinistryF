@@ -113,11 +113,11 @@ tr:hover {
   background-color: #f1f5f9;
   border: 1px solid #cbd5e1;
 }
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
   nav {
     flex-direction: column;
@@ -170,4 +170,5 @@ tr:hover {
 }
 
 }
+
 
